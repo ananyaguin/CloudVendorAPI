@@ -1,12 +1,15 @@
 
 package com.technical.rest_demoo.controller;
-
+import io.swagger.v3.oas.annotations.tags.Tag;
 import com.technical.rest_demoo.model.CloudVendor;
 import com.technical.rest_demoo.service.CloudVendorService;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
+import io.swagger.v3.oas.annotations.Operation;
 
 @RestController
+@Tag(name="Vendor Operation's API")
 @RequestMapping("/cloudvendor")
 public class CloudVendorController {
 
