@@ -46,7 +46,6 @@ public class CloudVendor {
         this.vendorPhoneNumber = vendorPhoneAddress;
     }
 
-
     public CloudVendor() {
 
     }
