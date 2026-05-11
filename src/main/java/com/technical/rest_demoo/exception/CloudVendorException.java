@@ -12,7 +12,6 @@ public class CloudVendorException {
         this.throwable = throwable;
         this.httpStatus = httpStatus;
     }
-
     public String getMessage() {
         return message;
     }
