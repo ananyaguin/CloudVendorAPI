@@ -23,7 +23,6 @@ public class CloudVendorController {
         return "Cloud Vendor Created Successfully";
     }
 
-
     @PutMapping
     public String updateCloudVendorDetails(@RequestBody CloudVendor cloudvendor) {
 
@@ -31,7 +30,6 @@ public class CloudVendorController {
         return "Cloud Vendor Updated Successfully";
 
     }
-
     @DeleteMapping("{vendorId}")
     public String deleteCloudVendorDetails(String vendorId) {
 
@@ -39,8 +37,5 @@ public class CloudVendorController {
         return "Cloud Vendor deleted Successfully";
 
     }
-
-
-
 
 }
