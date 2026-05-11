@@ -15,8 +15,6 @@ public class CloudVendorServiceImpl implements CloudVendorService {
         this.cloudVendorRepository = cloudVendorRepository;
     }
 
-
-
     @Override
     public String createCloudVendor(CloudVendor cloudvendor) {
         cloudVendorRepository.save(cloudvendor);
