@@ -47,10 +47,6 @@ public class CloudVendor {
     }
 
 
-
-
-
-
     public CloudVendor() {
 
     }
