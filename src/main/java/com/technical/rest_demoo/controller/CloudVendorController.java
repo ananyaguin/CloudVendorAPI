@@ -4,7 +4,6 @@ package com.technical.rest_demoo.controller;
 import com.technical.rest_demoo.model.CloudVendor;
 import com.technical.rest_demoo.service.CloudVendorService;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
