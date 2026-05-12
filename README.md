@@ -76,7 +76,6 @@ http://localhost:8080/swagger-ui/index.html
 ```text
 http://localhost:8080/actuator/health
 ```
-
 ---
 
 ## 🗄️ Database
@@ -87,6 +86,7 @@ http://localhost:8080/actuator/health
 - Real-Time CRUD Operations
 
 ---
+
 
 ## 🚀 Future Improvements
 
