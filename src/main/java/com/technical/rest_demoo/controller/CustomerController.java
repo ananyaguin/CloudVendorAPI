@@ -40,7 +40,7 @@ public class CustomerController {
         return customerService.getAllCustomers();
     }
 
-    // Update Customer
+    // ------Update Customer--------
     @PutMapping
     public String updateCustomer(@RequestBody Customer customer) {
 
@@ -49,12 +49,13 @@ public class CustomerController {
         return "Customer Updated Successfully";
     }
 
-    // Delete Customer
+    // ------Delete Customer------
     @DeleteMapping("{customerId}")
     public String deleteCustomer(@PathVariable String customerId) {
 
         customerService.deleteCustomer(customerId);
 
         return "Customer Deleted Successfully";
+
     }
 }
